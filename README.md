@@ -5,7 +5,7 @@
 ### 视频演示
 
 <div align="center">
-<a href="https://www.bilibili.com/video/BV18m411d7Yj/?vd_source=b303f6e8e0ed18809d8752d41ab1de7d">
+<a href="https://www.bilibili.com/video/BV1Y6421c78d/?vd_source=b303f6e8e0ed18809d8752d41ab1de7d">
 	<img width="972" alt="luci-app-whispercpp_intro_video" src="luci-app-whispercpp_intro.png">
 </a>
 </div>
