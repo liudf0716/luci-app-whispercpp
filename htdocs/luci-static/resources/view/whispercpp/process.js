@@ -5,6 +5,7 @@
 'require rpc';
 'require fs';
 'require tools.widgets as widgets';
+'require tools.github as github';
 
 var isReadonlyView = !L.hasViewPermission();
 
@@ -87,6 +88,7 @@ return view.extend({
 
 		m = new form.JSONMap(mapdata, _('Whispercpp Process'), _('Whisper is a general-purpose speech recognition model.'));
 		m.readonly = isReadonlyView;
+		m.description = github.desc('Whisper is a general-purpose speech recognition model.', 'liudf0716', 'whispercpp');
 
 		s = m.section(form.NamedSection, 'actions', _('Actions'));
 		
